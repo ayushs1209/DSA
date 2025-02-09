@@ -6253,6 +6253,108 @@ int main() {
     //     }
         
     // }
+
+
+    // int num = 1000;
+    // int k = 200;
+
+    // int start = 0; int end = num;
+    // int ans = 0;
+
+    // while (start<=end)
+    // {
+    //     int mid = start + (end-start) / 2;
+    //     if (mid*k == num)
+    //     {
+    //         cout << mid << "  ";
+    //         break;
+    //     }
+    //     else if (mid * k > num)
+    //     {
+    //         end = mid -1;
+    //     }
+    //     else
+    //     {
+    //         ans = mid;
+    //         start = mid + 1;
+    //     }
+    
+    // }
+    // cout << ans << ' ';
+
+
+
+
+    // vector<int> nums;
+    
+    // // nums = {20,10,30,50,40,70,60};
+    // nums = {20};
+    
+    // int start = 0; int end = nums.size()-1;
+    // int target = 20;
+    
+    // while (start <= end)
+    // {
+    //     int mid = start + (end-start)/2;
+        
+    //     if (nums[mid] == target)
+    //     {
+    //         cout << "Found at index: " << mid << " ";
+    //         break;
+    //     }
+        
+        
+    //     else if (mid -1 >= 0 && nums[mid-1] == target)
+    //     {
+    //         cout << "Found at index: " << mid-1 << " ";
+    //         break;
+    //     }
+        
+        
+    //     else if (mid + 1 < nums.size() && nums[mid+1] == target)
+    //     {
+    //         cout << "Found at index: " << mid+1 << " ";
+    //         break;
+    //     }   
+        
+        
+    //     else if(target > nums[mid])
+    //     {
+    //         start = mid + 2; 
+    //     }
+    //     else 
+    //     {
+    //         end = mid - 2;
+    //     }
+    // }
+
+
+
+    // vector<int> nums;
+    // nums = {6,3,78,9,2,8,9,4,2,6,8,76};
+
+    // for (int i = 0; i < nums.size(); i++)
+    // {
+    //     for (int j = i+1; j < nums.size(); j++)
+    //     {
+    //         swap(*min_element(nums.begin(),nums.end()), nums[j]);
+    //     }
+        
+    // }
+    // for (auto &&i : nums)
+    // {
+    //     cout << i << "   ";
+    // }
+
+
+    
+    
+    
+
+
+
+
+
     
 
     
